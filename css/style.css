@@ -1,0 +1,318 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font-family: Azgendl;
+  overflow-x: hidden; }
+
+.header {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  padding: 0px; }
+  .header .aside {
+    margin: 20px 100px 0px 0px;
+    font-family: AzgendlBol;
+    cursor: pointer; }
+  .header .btn {
+    float: right;
+    background-color: #de85a1;
+    border: #ffc0cb;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 2px; }
+  .header .center {
+    text-align: center;
+    clear: both;
+    margin-top: 140px; }
+    .header .center img {
+      margin-bottom: 80px;
+      position: relative; }
+    .header .center p {
+      color: white;
+      font-family: AzgendlBol;
+      font-size: 20px;
+      line-height: 10px; }
+    .header .center .glbn {
+      height: 100px; }
+      .header .center .glbn .glyphicon {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        color: #ffffff; }
+    .header .center .button {
+      font-family: AzgendlBol;
+      text-align: center;
+      color: #ffffff;
+      background-color: #4bcbe4;
+      border: none;
+      padding: 15px 32px;
+      margin-top: 50px;
+      margin-bottom: -50px;
+      border-radius: 4px; }
+  .header .imgLine img {
+    width: 100%;
+    height: 5px;
+    position: relative;
+    margin-top: 20px; }
+
+#gmap_canvas img {
+  max-width: none !important;
+  background: none !important; }
+
+.mapleft .row {
+  float: left;
+  border-bottom: 3px solid pink;
+  margin-left: -10px; }
+
+.mapleft img {
+  width: 100%;
+  height: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.table {
+  margin-top: 20px;
+  padding-top: 80px;
+  margin-left: 100px;
+  border: 1px solid #dfdfdf;
+  background-color: #f3f3f3;
+  width: 900px; }
+
+.leftdiv label {
+  margin-left: 100px;
+  float: left; }
+
+.rightdiv select {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 150px;
+  margin-bottom: 40px;
+  float: left; }
+
+.rightdiv input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 350px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  float: left; }
+
+.rightdiv .subin {
+  background-color: #215cb5;
+  color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  float: left;
+  font-family: Azgendl;
+  font-size: 18px; }
+
+.rightdiv .pin {
+  text-align: center;
+  color: white;
+  background-color: pink;
+  float: right;
+  padding: 20px 35px;
+  margin-top: 30px;
+  margin-right: 60px;
+  background: #de85a1;
+  border: #de85a1;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Azgendl; }
+
+.rightdiv .glyphicon {
+  width: 138px;
+  height: 41px;
+  float: left;
+  background-color: #215cb5;
+  color: #ffffff;
+  border: #215cb5;
+  padding: 10px;
+  cursor: pointer; }
+
+.rightdiv textarea {
+  float: left; }
+
+.content {
+  text-align: center; }
+
+.content .content1 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 80px; }
+
+.content .butterfly {
+  background-image: url(../img/butterfly.png);
+  background-color: #fff7f3;
+  background-repeat: no-repeat; }
+
+.content1 h3 {
+  padding-bottom: 80px;
+  position: relative; }
+
+.select-style {
+  font-size: 12px;
+  width: 180px;
+  height: 40px;
+  border-color: #e9e9e9;
+  font-family: AzgendlBol;
+  font-size: 1.1em;
+  margin: 0 5px;
+  background-color: #ffffff;
+  padding-left: 10px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5); }
+
+.content1 .btn {
+  font-size: 12px;
+  width: 150px;
+  height: 40px;
+  border-color: #4bcbe4;
+  font-family: AzgendlBol;
+  font-size: 1.1em;
+  margin: 0 5px;
+  padding: 10px;
+  background-color: #4bcbe4;
+  border-radius: 1px; }
+
+.content2 {
+  background: url(../img/bgcontent.png);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  filter: alpha(opacity=20);
+  position: relative; }
+
+.content2 .overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.78); }
+
+.content2 h3 {
+  color: #000000;
+  text-align: center;
+  margin: 50px;
+  position: relative;
+  font-family: AzgendlBol; }
+
+.content2 .slider2 .slide {
+  height: content;
+  padding: 20px;
+  border-bottom: 10px;
+  width: 150px; }
+
+.slide .slidebtm {
+  background-color: #ffffff;
+  width: 100%;
+  text-align: left;
+  font-family: AzgendlBol;
+  font-size: 15px;
+  padding: 20px; }
+
+.slide .slidebtm p {
+  font-weight: bold; }
+
+.slide .fa {
+  color: #ff0080; }
+
+.mapleft .fa {
+  color: #ff0080; }
+
+.bx-wrapper .bx-viewport {
+  box-shadow: none;
+  border: none;
+  background: transparent; }
+
+.bx-wrapper .bx-prev {
+  left: -20px; }
+
+.bx-wrapper .bx-next {
+  right: -10px; }
+
+.bx-wrapper .bx-controls-direction a {
+  margin-top: -59px; }
+
+.content3 {
+  text-align: center;
+  padding: 10px; }
+
+.divh {
+  color: black;
+  text-align: center;
+  padding: 10px; }
+
+#content {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  float: left;
+  background-color: #ffffff; }
+
+#orta {
+  margin-left: 50px; }
+
+.about {
+  margin: 30px;
+  padding: 20px; }
+
+.bagimg img {
+  width: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+.bagimg .tabimg img {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+.table p {
+  font-family: Azgendl;
+  font-size: 13px;
+  text-align: center; }
+
+.footer {
+  background-color: #215cb5;
+  color: #ffffff;
+  font-family: Azgendl;
+  font-size: 13px;
+  width: 100%;
+  height: auto; }
+
+.left {
+  text-align: center;
+  width: 400px;
+  height: 150px;
+  border-radius: 0px 140px 0px 0px;
+  background: #de85a1;
+  padding-top: 40px; }
+
+.left img {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 30px; }
+
+.right {
+  padding-top: 35px;
+  padding-left: 150px; }
+
+.right ul {
+  list-style: none;
+  margin: 40px; }
+
+.right li {
+  display: inline;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 15px; }
+
+.right li:hover {
+  border: 1px solid #ffffff; }
+
+/*# sourceMappingURL=style.css.map */

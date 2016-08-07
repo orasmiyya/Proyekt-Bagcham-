@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bagcham</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- jQuery library (served from Google) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="js/plugins/bxslider/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="js/plugins/bxslider/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="header container-fluid">
+        <div class="row">
+            <div class="center ">
+                <img src="img/logo.png " alt="logo ">
+            </div>
+            <div class="imgLine">
+                <img src="img/line.png" alt="line">
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT -->
+    <div class="content container-fluid">
+        <div class="row">
+        <span>Filtrlə</span>
+            <div class="content1">
+                
+                <br>
+                <form action="" method="get">
+                    <select class="select-style" name="country">
+                        <option>Şəhər</option>
+                        <option>Bakı</option>
+                        <option>Sumqayıt</option>
+                    </select>
+                    <select class="select-style" name="city">
+                        <option>Rayon</option>
+                        <option>Nizami</option>
+                    </select>
+                    <select class="select-style" name="ozeldovlet">
+                        <option>Özəl/Dövlət</option>
+                        <option>Özəl</option>
+                        <option>Dövlət</option>
+                    </select>
+                    <select class="select-style" name="secenek1">
+                        <option>Seçənək</option>
+                        <option>Seçənək</option>
+                    </select>
+                    <select class="select-style" name="secenek2">
+                        <option>Secenek</option>
+                        <option>Secenek</option>
+                    </select>
+                    <a href="map.html" class="btn btn-info btn-lg">
+                        <span class="glyphicon glyphicon-search"></span> Axtar
+                    </a>
+                </form>
+            </div>
+        </div>
+        <div class="cont">
+                <div class="row">
+                    <div class="mapleft col-md-4">
+                        <div class="row">
+                            <div class="col-md-3"> <img src="img/kg4.jpg" alt="bagca"></div>
+                            <div class="col-md-3">
+                                <p> 145 N-li bağça</p>
+                                <i class="fa fa-map-marker" aria-hidden="true">
+                            </i> Bakı, Nizami
+                                <p>Əlavə məlumat</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3"> <img src="img/kg4.jpg" alt="bagca"></div>
+                            <div class="col-md-3">
+                                <p> 145 N-li bağça</p>
+                                <i class="fa fa-map-marker" aria-hidden="true">
+                            </i> Bakı, Nizami
+                                <p>Əlavə məlumat</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3"> <img src="img/kg4.jpg" alt="bagca"></div>
+                            <div class="col-md-3">
+                                <p> 145 N-li bağça</p>
+                                <i class="fa fa-map-marker" aria-hidden="true">
+                            </i> Bakı, Nizami
+                                <p>Əlavə məlumat</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3"> <img src="img/kg4.jpg" alt="bagca"></div>
+                            <div class="col-md-3">
+                                <p> 145 N-li bağça</p>
+                                <i class="fa fa-map-marker" aria-hidden="true">
+                            </i> Bakı, Nizami
+                                <p>Əlavə məlumat</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3"> <img src="img/kg4.jpg" alt="bagca"></div>
+                            <div class="col-md-3">
+                                <p> 145 N-li bağça</p>
+                                <i class="fa fa-map-marker" aria-hidden="true">
+                            </i> Bakı, Nizami
+                                <p>Əlavə məlumat</p>
+                            </div>
+                        </div>
+                    </div>
+                    <d1v class="col-md-8">
+                        <div style='overflow:hidden;height:500px;width:100%;'>
+                            <div id='gmap_canvas' style='height:500px;width:100%;'>
+                            </div>
+                            <div><small><a href="http://embedgooglemaps.com">bedgooglemaps.com  </a></small>
+                            </div>
+                            <div><small><a href="http://buyproxies.io/">private proxies</a></small></div>
+                        </div>
+                
+                </d1v>
+
+            </div>
+        </div>
+        </div>
+    
+    <!-- FOOTER -->
+    <div class="footer container-fluid">
+        <div class="row">
+            <div class="col-md-4 left">
+                <img src="img/logo.png " alt="logo ">
+                <p>Usaqlarinizin geleceyi sizin elinizde</p>
+            </div>
+            <div class="right col-md-8">
+                <ul>
+                    <a href="haqqimizda.html">
+                        <li>HAQQIMIZDA</li>
+                    </a>
+                    <a href="#">
+                        <li>QAYDALAR</li>
+                    </a>
+                    <a href="#">
+                        <li>ŞİKAYƏT VƏ TƏKLİFLƏRİNİZ</li>
+                    </a>
+                    <a href="#">
+                        <li>BİZİMLƏ ƏLAQƏ</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    function init_map() {
+        var myOptions = {
+            zoom: 10,
+            center: new google.maps.LatLng(40.40926169999999, 49.86709240000005),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+        marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(40.40926169999999, 49.86709240000005)
+        });
+        infowindow = new google.maps.InfoWindow({
+            content: '<strong>Название</strong><br>Baki Azerbaijan<br>'
+        });
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.open(map, marker);
+        });
+        infowindow.open(map, marker);
+    }
+    google.maps.event.addDomListener(window, 'load', init_map);
+    </script>
+</body>
+
+</html>
